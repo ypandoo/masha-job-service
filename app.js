@@ -42,7 +42,7 @@ app.use('/job', job)
 // db
 var mongoose = require('mongoose')
 require('express-mongoose')
-mongoose.connect('mongodb://localhost/mashajob')
+mongoose.connect('mongodb://superlei:lei000lei@127.0.0.1/mashajob')
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
